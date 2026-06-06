@@ -144,9 +144,21 @@ class ButtonSection extends StatelessWidget {
       children: [
         ButtonWithText(
           color: color,
-          icon: Icons.map,
+          icon: Icons.near_me,
           label: 'MAPA',
           onPressed: _openMaps,
+        ),
+        ButtonWithText(
+          color: color,
+          icon: Icons.call,
+          label: 'CALL',
+          onPressed: () {},
+        ),
+        ButtonWithText(
+          color: color,
+          icon: Icons.share,
+          label: 'SHARE',
+          onPressed: () {},
         ),
       ],
     );
